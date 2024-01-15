@@ -1,0 +1,94 @@
+#cart{
+    background-color: var(--orange);
+}
+.sub-container{
+    background-color: white;
+    height: 88vh;
+    width: 100vw;
+    margin-top: 12vh;
+    border-radius: 20px;
+}
+.cart-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.inner-container{
+    border: 1px solid black;
+    width: 47vw;
+    height: 82vh;
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--orange);
+    margin: 1vw;
+}
+.user-info-container{
+    color: black;
+    text-align: left;
+    font-family: var(--roboto-normal);  
+    display: flex;
+    flex-direction: column;
+  
+}
+.user-info-container .name{
+    padding: 1.5vw;
+    font-size: 3vw;
+}
+.user-info-container .shipping-address{
+    padding: 0.5vw 1.5vw;
+    font-size: 1vw;
+}
+.user-info-container .billing-address{
+    padding: 0vw 1.5vw;
+    font-size: 1vw;
+}
+.user-info-container .delivery-date{
+    padding: 1vw 1.5vw;
+    font-size: 2vw;
+}
+.user-info-container .cod{
+    padding: 0vw 1.5vw;
+    font-size: 2vw;
+}
+.shopping-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shopping-list-container .item-container{
+    border: 1px black solid;
+    border-radius: 20px;
+    color: black;
+    text-align: left;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    width: 42vw;
+    padding: 1vw;
+    margin: 1vw;
+}
+.item-container .text{
+    display: flex;
+    flex-direction: column;
+}
+.item-container .name-id{
+    display: flex;
+    flex-direction: row;
+}
+.item-container .name-id-icon{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+}
+.name-id-icon .name-id{
+    flex-grow: 1;
+}
+.name-id-icon .icon{
+    position: relative;
+    flex-grow: 2;
+}
+.name-id-icon .icon .delete-icon{
+    position: absolute;
+    right: 0;
+}

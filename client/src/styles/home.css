@@ -1,0 +1,83 @@
+#home{
+    background-color: white;
+}
+.image{
+    background-image: url('../../public/5.jpg');
+    background-size: cover;
+    background-position: top left;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-image: url('../../public/fruits.png');
+    background-size: cover;
+    background-position: top left;
+    height: 30vh;
+    width: 20vw;
+    z-index: 1;
+}
+.call-to-action{
+    width: 30vw;
+}
+.container{
+    position: relative;
+    background-color: rgb(255, 221, 189);
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quality{
+    height: 12vh;
+    width: 98vw;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    top: -7vh;
+    margin: 1vw;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(226, 156, 65, 0.534);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.quality:hover {
+    box-shadow: 0 0 30px rgba(240, 87, 16, 0.8); /* Adjust the glow color and intensity on hover */
+}
+.element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    padding: 2vw;
+}
+.element .text{
+    color: var(--dark-green);
+    font-size: 1vw;
+    padding: 1vw;
+    font-family: var(--roboto-normal);
+}
+.recommended{
+    background-color: rgb(255, 221, 189);
+    position: absolute;
+    top : 10vh;
+}
+.card-container{
+    width: 93vw;
+    height: max-content;
+    background-color: white;
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page-head{
+    font-size: 3vw;
+    padding-bottom: 1vw;
+    font-family: var(--roboto-normal);
+}

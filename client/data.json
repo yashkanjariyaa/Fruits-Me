@@ -1,0 +1,8 @@
+{
+  "fruit": {
+    "image": "./public/1.jpg",
+    "name": "Apple",
+    "description": "A crunchy and sweet fruit with a red or green skin.",
+    "price": "1.99$"
+  }
+}

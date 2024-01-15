@@ -1,0 +1,49 @@
+.navbar {
+  position: fixed;
+  overflow: none;
+  width: 98vw;
+  height: 8vh;
+  z-index: 99;
+  background: white;
+  margin: 1vw;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(226, 156, 65, 0.795);
+}
+.hero {
+  position: absolute;
+  left: 0;
+  z-index: 3;
+}
+.navbar .unordered-list {
+  list-style-type: none;
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.navbar .unordered-list .list-element {
+  padding: 0px 50px;
+}
+.navbar .list-element a {
+  background: none;
+  border: none;
+  font-size: 1vw;
+  color: var(--dark-green);
+  font-family: var(--roboto-normal);
+}
+.list-element a:hover {
+  text-decoration: underline;
+}
+.user-icon{
+  position: absolute;
+  right: 0;
+  padding: 1.2vw 1.2vw;
+}
+.disable {
+  text-decoration: none;
+}
+.active{
+  text-decoration: underline;
+}
